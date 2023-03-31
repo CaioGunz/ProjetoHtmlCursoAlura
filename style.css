@@ -4,10 +4,17 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: rgb(201, 201, 201);
     color: black;
 }
 
 .titulo-destaque {
-    color: #22d4fd;
+    color: #55ff6c;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
