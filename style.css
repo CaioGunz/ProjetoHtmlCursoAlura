@@ -10,12 +10,12 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(201, 201, 201);
-    color: black;
+    background-color: black;
+    color: whitesmoke;
 }
 
 .titulo-destaque {
-    color: #55ff6c;
+    color: #22D4FD;
 }
 
 .apresentacao {
@@ -58,7 +58,10 @@ body {
 }
 
 .apresentacao__links__link {
-    border: 2px solid #55ff6c;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -66,6 +69,10 @@ body {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
 }
